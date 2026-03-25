@@ -118,15 +118,16 @@
 
     ## 6. CONTROLS & KEYBOARD KEYS
 
-    | Action | Agent 1 (Blue) | Agent 2 (Red) | Description |
-    |--------|---|---|---|
-    | **Move Up** | W | ↑ (Up Arrow) | Move agent up by 1 cell |
-    | **Move Down** | S | ↓ (Down Arrow) | Move agent down by 1 cell |
-    | **Move Left** | A | ← (Left Arrow) | Move agent left by 1 cell |
-    | **Move Right** | D | → (Right Arrow) | Move agent right by 1 cell |
-    | **Place Obstacle** | Q | M | Place obstacle next to agent |
-    | **Auto-Move (BFS)** | E | N | Move 1 step along shortest path to treasure |
-    | **Quit Game** | ESC or X button | ESC or X button | Exit the game |
+  | Action          | Agent 1 (Blue) | Agent 2 (Red) | Description    |
+| --------------- | -------------- | ------------- | -------------- |
+| Move Up         | W              | ↑             | Move up        |
+| Move Down       | S              | ↓             | Move down      |
+| Move Left       | A              | ←             | Move left      |
+| Move Right      | D              | →             | Move right     |
+| Place Obstacle  | Q              | M             | Place obstacle |
+| Auto-Move (BFS) | E              | N             | Shortest path  |
+| Quit Game       | ESC            | ESC           | Exit           |
+
 
     ### Control Examples:
     - **Example 1 (Manual Movement):** Press W to move Agent 1 up
