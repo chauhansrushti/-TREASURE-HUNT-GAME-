@@ -258,23 +258,17 @@ python c:\Users\DELL\treasure_hunt.py
 ## 🔍 COMMON QUESTIONS
  **Q1: What does BFS do?**
     A: BFS (Breadth-First Search) finds the shortest path from your current position to the treasure, even if there are obstacles. It guarantees the fewest moves needed.
-
-    **Q2: How is Manhattan Distance used?**
+  **Q2: How is Manhattan Distance used?**
     A: When the game starts, it uses Manhattan Distance to ensure the treasure spawns at least 6 cells away from both players, making the game challenging.
-
-    **Q3: Can I move diagonally?**
+**Q3: Can I move diagonally?**
     A: No, only 4 directions: up, down, left, right (no diagonal movement).
-
-    **Q4: What happens if both players reach treasure at the same time?**
+ **Q4: What happens if both players reach treasure at the same time?**
     A: You both win! Special message displays: "BOTH REACHED TREASURE! Cooperation Victory!"
-
-    **Q5: Can I block my opponent with obstacles?**
+ **Q5: Can I block my opponent with obstacles?**
     A: Yes! Place obstacles (Q or M) next to your position to force them to find alternate routes.
-
-    **Q6: How do I get a higher score?**
+ **Q6: How do I get a higher score?**
     A: Use auto-move (BFS) instead of manual movement. Fewer moves + less time = higher score.
-
-    **Q7: Does my opponent see my treasure location?**
+ **Q7: Does my opponent see my treasure location?**
     A: Yes, the treasure is the same for both players. It's on the shared grid.
 
 
