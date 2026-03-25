@@ -18,13 +18,11 @@ TREASURE HUNT GAME
 | Auto-Move (BFS) | E                  | N                 |
 
 🤖 Auto-Move Details
-+------------------------+--------------------------------------------------------------+
-| Feature                | Details                                                      |
-+------------------------+--------------------------------------------------------------+
-| Agent 1 Auto-Move Key  | E                                                            |
-| Agent 2 Auto-Move Key  | N                                                            |
-| What it does           | Moves one step along shortest path to treasure using BFS     |
-|                        | algorithm                                                    |
-| How to use             | Press E (or N) multiple times to reach treasure automatically|
-| Benefit                | Finds optimal path, costs moves but saves time               |
-+------------------------+--------------------------------------------------------------+
+                                             |
+| **Feature**           | **Details**                                                        |
+| --------------------- | ------------------------------------------------------------------ |
+| Agent 1 Auto-Move Key | E                                                                  |
+| Agent 2 Auto-Move Key | N                                                                  |
+| What it does          | Moves one step along shortest path to treasure using BFS algorithm |
+| How to use            | Press E (or N) multiple times to reach treasure automatically      |
+| Benefit               | Finds optimal path, costs moves but saves time                     |
